@@ -1,0 +1,23 @@
+@media screen and (max-width: 1024px) {
+  .container {
+    margin: 0px 66px;
+  }
+  .index-content-items,
+  .catalog-content-items {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-item-links,
+  .header-nav_text,
+  .footer-nav_text,
+  .nav-text {
+    display: none;
+  }
+  .nav-content,
+  .nav-item,
+  .open {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+}
